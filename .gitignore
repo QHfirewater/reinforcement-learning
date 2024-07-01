@@ -1,0 +1,8 @@
+*.pth
+runs
+*.png
+*.gif
+*.pyc
+*.svg
+*.jpg
+*.zip
