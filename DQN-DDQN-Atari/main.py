@@ -15,9 +15,9 @@ seed = np.random.randint(0,20)
 '''Hyperparameter Setting'''
 parser = argparse.ArgumentParser()  
 parser.add_argument('--EnvIdex', type=int, default=9, help='Index of the Env')
-parser.add_argument('--write', type=str2bool, default=False, help='Use SummaryWriter to record the training')
-parser.add_argument('--render', type=str2bool, default= True, help='Render or Not')
-parser.add_argument('--Loadmodel', type=str2bool, default=True, help='Load pretrained model or Not')
+parser.add_argument('--write', type=str2bool, default=True, help='Use SummaryWriter to record the training')
+parser.add_argument('--render', type=str2bool, default= False, help='Render or Not')
+parser.add_argument('--Loadmodel', type=str2bool, default=False, help='Load pretrained model or Not')
 parser.add_argument('--ModelIdex', type=int, default=900, help='which model to load')
 
 parser.add_argument('--seed', type=int, default=seed, help='random seed')
